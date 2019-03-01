@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dog renders the Dog component 1`] = `
+<Fragment>
+  <h2>
+    Billy
+  </h2>
+  <p>
+    Age: 
+    12
+     years old
+  </p>
+  <p>
+    Weight: 
+    70 lbs
+  </p>
+</Fragment>
+`;

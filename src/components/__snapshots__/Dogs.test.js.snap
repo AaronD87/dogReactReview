@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dogs renders the Dogs component 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <Dog
+      age={12}
+      name="Billy"
+      weight="70 lbs"
+    />
+  </li>
+</ul>
+`;

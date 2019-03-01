@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddDogForm /> matches a snapshot for AddDogForm 1`] = `
+<Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <span>
+      Name: 
+    </span>
+    <input
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <span>
+      Age: 
+    </span>
+    <input
+      name="age"
+      onChange={[Function]}
+      type="number"
+      value=""
+    />
+    <span>
+      Weight: 
+    </span>
+    <input
+      name="weight"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <button
+      type="submit"
+    >
+      Add Dog
+    </button>
+  </form>
+</Fragment>
+`;

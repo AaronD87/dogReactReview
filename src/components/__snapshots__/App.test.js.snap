@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders the App 1`] = `
+<div>
+  <h1>
+    Dogs
+  </h1>
+  <div>
+    <AddDogForm
+      addDog={[Function]}
+    />
+    <Dogs
+      dogs={Array []}
+    />
+  </div>
+</div>
+`;
