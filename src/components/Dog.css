@@ -1,0 +1,24 @@
+.dogName {
+  margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-size: 1.75em;
+	line-height: 40px;
+	font-family: 'Orienta', sans-serif;
+}
+.dogAge {
+  margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-size: 1.25em;
+	line-height: 40px;
+	font-family: 'Orienta', sans-serif;
+}
+.dogWeight {
+  margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-size: 1.25em;
+	line-height: 40px;
+	font-family: 'Orienta', sans-serif;
+}

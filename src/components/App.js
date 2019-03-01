@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import AddDogForm from './AddDogForm';
 import Dogs from './Dogs';
-// import styles from './App.css';
+import styles from './App.css';
 
 class MyClass extends PureComponent {
   state = {
@@ -19,7 +19,7 @@ class MyClass extends PureComponent {
 
     return (
       <div >
-        <h1>Dogs</h1>
+        <h1 className={styles.heading}>List Of Dogs</h1>
         <div >
           <AddDogForm addDog={this.addDog}/>
 

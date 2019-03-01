@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Dog from './Dog';
+import './Dogs.css';
 
 export default function Dogs({ dogs }) {
   const listOfDogs = dogs.map((dog, idx) => {

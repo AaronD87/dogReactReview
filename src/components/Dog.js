@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Dog.css';
 
 export default function Dog({ age, name, weight }) {
   return (
     <>
-      <h2>{name}</h2>
-      <p>Age: {age} years old</p>
-      <p>Weight: {weight}</p>
+      <h2 className={styles.dogName}>{name}</h2>
+      <p className={styles.dogAge}>Age: {age} years old</p>
+      <p className={styles.dogWeight}>Weight: {weight}</p>
     </>
   );
 }
