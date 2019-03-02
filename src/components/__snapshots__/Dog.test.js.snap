@@ -2,15 +2,21 @@
 
 exports[`Dog renders the Dog component 1`] = `
 <Fragment>
-  <h2>
+  <h2
+    className="dogName"
+  >
     Billy
   </h2>
-  <p>
+  <p
+    className="dogAge"
+  >
     Age: 
     12
      years old
   </p>
-  <p>
+  <p
+    className="dogWeight"
+  >
     Weight: 
     70 lbs
   </p>

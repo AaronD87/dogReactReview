@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import './AddDogForm.css';
+import styles from './AddDogForm.css';
 
 class AddDogForm extends PureComponent {
   static propTypes = {
@@ -15,9 +15,9 @@ class AddDogForm extends PureComponent {
   
   handleSubmit = event => {
     event.preventDefault();
+    this.myRef = React.createRef();
     const { name, age, weight } = this.state;
     this.props.addDog({ name, age: Number.parseInt(age), weight });
-    
   };
 
   updateInput = ({ target }) => {
@@ -28,14 +28,14 @@ class AddDogForm extends PureComponent {
     const { name, age, weight } = this.state;
     return (
       <>
-        <form onSubmit={this.handleSubmit}>
+        <form className={styles.form} onSubmit={this.handleSubmit}>
           <span>Name: </span>
-          <input type='text' name='name' value={name} onChange={this.updateInput} />
+          <input className={styles.input} type='text' name='name' value={name} onChange={this.updateInput} />
           <span>Age: </span>
-          <input type='number' name='age' value={age} onChange={this.updateInput} />
+          <input className={styles.input} type='number' name='age' value={age} onChange={this.updateInput} />
           <span>Weight: </span>
-          <input type='text' name='weight' value={weight} onChange={this.updateInput} />
-          <button type='submit'>Add Dog</button>
+          <input className={styles.input} type='text' name='weight' value={weight} onChange={this.updateInput} />
+          <button className={styles.button} type='submit'>Add Dog</button>
         </form>
       </>
     );

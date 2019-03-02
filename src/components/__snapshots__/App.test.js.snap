@@ -2,8 +2,10 @@
 
 exports[`App renders the App 1`] = `
 <div>
-  <h1>
-    Dogs
+  <h1
+    className="heading"
+  >
+    List Of Dogs
   </h1>
   <div>
     <AddDogForm

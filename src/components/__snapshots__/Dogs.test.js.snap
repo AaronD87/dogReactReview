@@ -1,8 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Dogs renders the Dogs component 1`] = `
-<ul>
+<ul
+  className="ul"
+>
   <li
+    className="li"
     key="0"
   >
     <Dog

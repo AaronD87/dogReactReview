@@ -3,12 +3,14 @@
 exports[`<AddDogForm /> matches a snapshot for AddDogForm 1`] = `
 <Fragment>
   <form
+    className="form"
     onSubmit={[Function]}
   >
     <span>
       Name: 
     </span>
     <input
+      className="input"
       name="name"
       onChange={[Function]}
       type="text"
@@ -18,6 +20,7 @@ exports[`<AddDogForm /> matches a snapshot for AddDogForm 1`] = `
       Age: 
     </span>
     <input
+      className="input"
       name="age"
       onChange={[Function]}
       type="number"
@@ -27,12 +30,14 @@ exports[`<AddDogForm /> matches a snapshot for AddDogForm 1`] = `
       Weight: 
     </span>
     <input
+      className="input"
       name="weight"
       onChange={[Function]}
       type="text"
       value=""
     />
     <button
+      className="button"
       type="submit"
     >
       Add Dog
